@@ -14,6 +14,7 @@ services:
     # адрес файла, где хранятся переменные окружения
     env_file:
       - ./.env
+
   web:
     build: ../api_yamdb/
     restart: always

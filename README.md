@@ -24,3 +24,18 @@ _Создать суперпользователя:_
 ```docker-compose exec web python manage.py createsuperuser```
 _Собрать статику:_
 ```docker-compose exec web python manage.py collectstatic --no-input```
+
+### Используемые библиотеки
+- asgiref==3.2.10
+- Django==2.2.16
+- django-filter==2.4.0
+- djangorestframework==3.12.4
+- djangorestframework-simplejwt==4.8.0
+- gunicorn==20.0.4
+- psycopg2-binary==2.8.6
+- PyJWT==2.1.0
+- pytz==2020.1
+- sqlparse==0.3.1
+
+### Автор
+Студент Яндекс Практикума
